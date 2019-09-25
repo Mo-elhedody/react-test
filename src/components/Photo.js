@@ -5,6 +5,7 @@ function Photo(props) {
     <figure className="figure">
       <img className="photo" src={post.imageLink} alt={post.description} />
       <figcaption>
+        <p>Test</p>
         <p> {post.description} </p>
       </figcaption>
       <div className="button-container">
